@@ -1,0 +1,90 @@
+body {
+
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+    color: #333;
+    padding: 30px;
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-top: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    position: relative;
+    z-index: 1;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.button {
+    display: inline-block;
+    background-color: #ff69b4;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #e65c9d;
+}
+
+.photo {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    position: relative;
+    z-index: 2;
+}
+
+.background-image {
+    background-image: url("../img/bimbo1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 140%;
+	animation: slideshow 20s ease infinite;
+}
+
+
+
+
+@keyframes slideshow {
+	0% {
+		background-image: url("../img/bimbo1.jpg");
+	}
+	25% {
+		background-image: url("../img/bimbo2.jpg");
+	}
+	50% {
+		background-image: url("../img/bimbo3.jpg");
+	}
+	75% {
+		background-image: url("../img/bombo-y-su-beba.jpg");
+	}
+	100% {
+		background-image: url("../img/bg1.jpg");
+	}
+}
